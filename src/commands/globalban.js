@@ -45,7 +45,7 @@ export async function execute(interaction) {
 
   try {
     const banDmEmbed = new EmbedBuilder()
-      .setTitle('You Have Been Globally Banned')
+      .setTitle('You Have Been BANNED')
       .setColor(0xe74c3c)
       .setDescription(
         `You have been **BANNED** from all **IMPERIUM** servers.\n\n` +
