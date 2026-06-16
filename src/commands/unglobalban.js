@@ -44,7 +44,7 @@ export async function execute(interaction) {
   try {
     const target = await interaction.client.users.fetch(userId);
     const dmEmbed = new EmbedBuilder()
-      .setTitle('You Have Been Unbanned')
+      .setTitle('You Have Been UNBANNED')
       .setColor(0x2ecc71)
       .setDescription(
         `Your global ban from all **IMPERIUM** servers has been **lifted**.\n\n` +
