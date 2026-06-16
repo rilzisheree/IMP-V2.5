@@ -44,17 +44,17 @@ export async function execute(interaction) {
   try {
     const target = await interaction.client.users.fetch(userId);
     const dmEmbed = new EmbedBuilder()
-      .setTitle('✅ You Have Been Unbanned')
+      .setTitle('You Have Been Unbanned')
       .setColor(0x2ecc71)
       .setDescription(
         `Your global ban from all **IMPERIUM** servers has been **lifted**.\n\n` +
-        `You are now free to rejoin IMPERIUM servers.`
+        `You are now free to rejoin IMPERIUM servers. Link; https://discord.gg/WREM7sAy`
       )
       .addFields(
         { name: 'Unbanned By', value: interaction.user.tag },
         { name: 'Original Reason', value: ban.reason || 'Not recorded' },
       )
-      .setFooter({ text: 'IMPERIUM Network' })
+      .setFooter({ text: 'IMPERIUM Management' })
       .setTimestamp();
 
     await target.send({ embeds: [dmEmbed] });
