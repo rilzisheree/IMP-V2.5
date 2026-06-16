@@ -5,8 +5,8 @@ import { sendGlobalLog, logEmbed } from '../lib/logger.js';
 
 // Add server IDs here that should be EXEMPT from global bans
 const EXEMPT_GUILD_IDS = [
-  // '123456789012345678',
-  // '987654321098765432',
+  // '1502655289386729653',
+  // '1493549808521318421',
 ];
 
 export const data = new SlashCommandBuilder()
@@ -45,17 +45,17 @@ export async function execute(interaction) {
 
   try {
     const banDmEmbed = new EmbedBuilder()
-      .setTitle('🔨 You Have Been Globally Banned')
+      .setTitle('You Have Been Globally Banned')
       .setColor(0xe74c3c)
       .setDescription(
-        `You have been **permanently banned** from all **IMPERIUM** network servers.\n\n` +
+        `You have been **BANNED** from all **IMPERIUM** servers.\n\n` +
         `If you believe this was a mistake, you may submit a ban appeal below.`
       )
       .addFields(
         { name: 'Reason',     value: reason },
         { name: 'Ban Appeal', value: 'https://discord.gg/vTURGtbr6E' },
       )
-      .setFooter({ text: 'IMPERIUM Network — This action was reviewed by staff.' })
+      .setFooter({ text: 'IMPERIUM Management — This action was reviewed by Staff.' })
       .setTimestamp();
 
     await target.send({ embeds: [banDmEmbed] });
