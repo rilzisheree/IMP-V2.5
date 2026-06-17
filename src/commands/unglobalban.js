@@ -47,7 +47,7 @@ export async function execute(interaction) {
       .setTitle('You Have Been UNBANNED')
       .setColor(0x2ecc71)
       .setDescription(
-        `Your global ban from all **IMPERIUM** servers has been **lifted**.\n\n` +
+        `After reviewing the case, the **Administration Team** has decided to **approve** your appeal and lift the ban issued against your account. Following a thorough assessment of the available information, it was determined that the punishment will be revoked.\n\n` +
         `You are now free to rejoin IMPERIUM servers. Link; https://discord.gg/WREM7sAy`
       )
       .addFields(
