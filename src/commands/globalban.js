@@ -49,7 +49,7 @@ export async function execute(interaction) {
       .setColor(0xe74c3c)
       .setDescription(
         `You have been **BANNED** from all **IMPERIUM** servers.\n\n` +
-        `If you believe this was a mistake, you may submit a ban appeal below.`
+        `If you believe this was a mistake, you may submit a ban appeal below. Do **NOT** DM or harrass any Staff Or Lore Team Members, Or you'll be perma-banned from Imperium forever.`
       )
       .addFields(
         { name: 'Reason',     value: reason },
