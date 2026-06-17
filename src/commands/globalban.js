@@ -53,7 +53,7 @@ export async function execute(interaction) {
       )
       .addFields(
         { name: 'Reason',     value: reason },
-        { name: 'Ban Appeal', value: 'https://discord.gg/vTURGtbr6E' },
+        { name: 'Ban Appeal', value: 'https://discord.gg/7W2EZcBr7Z' },
       )
       .setFooter({ text: 'IMPERIUM Management — This action was reviewed by Staff.' })
       .setTimestamp();
